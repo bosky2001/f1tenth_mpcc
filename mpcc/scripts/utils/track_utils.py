@@ -114,4 +114,4 @@ class RaceLine(TrackLine):
         self.kappa = track[:, 4]
         self.s_track = track[:, 0]
 
-        self.widths = 0.4*np.ones_like(self.path)
+        self.widths = 0.7*np.ones_like(self.path)
